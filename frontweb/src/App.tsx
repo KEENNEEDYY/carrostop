@@ -1,8 +1,9 @@
+import './assets/styles/custom.scss';
 import './App.css';
 
 function App() {
   return (
-    <h1>Hello CarrosTop</h1>
+    <h1>Carros Top</h1>
   );
 }
 
