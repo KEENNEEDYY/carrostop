@@ -1,5 +1,6 @@
 import './styles.css';
 import { ReactComponent as MainImage } from 'assets/images/car-header.svg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -14,7 +15,9 @@ const Home = () => {
         </div>
 
         <div className="button-container">
-          <button>Ver Catálogo</button>
+          <Link to="/catalog"><button>Ver Catálogo</button></Link>
+            
+                    
           <p>Comece agora a navegar</p>
         </div>
       </div>
